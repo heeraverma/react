@@ -29,7 +29,7 @@ function App() {
     // </div>
 
     <header>
-      <nav>
+      <nav className="navbar">
         <div className="logo">
           <a href="#"><img src='./logo192.png' alt="Logo" /></a>
         </div>

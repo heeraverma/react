@@ -1,25 +1,26 @@
 /* Header styles */
 header {
-  background-color: #49391c;
+  /* background-color: #333; */
   color: #fff;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: 100%;
+  position: sticky;
+  /* max-width: 1200px; */
 }
 
-.logo a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-}
 .logo img {
   max-height: 40px;
 }
@@ -32,7 +33,7 @@ nav {
 .hamburger .line {
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: #333;
   margin: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -59,7 +60,7 @@ nav {
 }
 
 .nav-links li a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 
@@ -70,12 +71,14 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    top: 80px;
+    top: 55px;
     left: 0;
     width: 100%;
-    background-color: #49391c;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     padding: 20px;
     transition: all 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .nav-links.open {
