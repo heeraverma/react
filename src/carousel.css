@@ -1,0 +1,87 @@
+.carousel-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.brand-name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px 2px;
+}
+
+.sub-brand {
+  padding: 5px 2px;
+}
+
+/* Carousel styles */
+.carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 15px;
+}
+
+.carousel-slides {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #666;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.nav-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-dot.active {
+  background-color: #333;
+}
