@@ -1,6 +1,7 @@
 //import React from 'react';
 import './header.css';
 import React, { useState } from 'react';
+import { Button } from '@mui/material';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,10 +21,14 @@ const Header = () => {
                     <div className="line"></div>
                 </div>
                 <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                    <li><a href="#">Home</a></li>
+                    {/* <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contact</a></li> */}
+                    <li><Button href="#">Home</Button></li>
+                    <li><Button href="#">About</Button></li>
+                    <li><Button href="#">Services</Button></li>
+                    <li><Button href="#">Contact</Button></li>
                 </ul>
             </nav>
         </header>

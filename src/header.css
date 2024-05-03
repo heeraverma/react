@@ -62,7 +62,7 @@ header {
 .nav-links li a {
   color: #333;
   text-decoration: none;
-  padding: 10px;
+  /* padding: 10px; */
   transition: color 0.3s ease-in-out;
 }
 
