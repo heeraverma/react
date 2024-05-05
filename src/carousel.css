@@ -7,11 +7,13 @@
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding: 10px 2px;
+  padding: 0px 2px;
+  color: white;
 }
 
 .sub-brand {
-  padding: 5px 2px;
+  padding: 0px 2px;
+  color: white;
 }
 
 /* Carousel styles */

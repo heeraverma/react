@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto";
 }
 
 .App-logo {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.brand-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  justify-content: flex-start;
+}
+
+.btn-group {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10;
+}
+
+.buttonFilled {
+  background-color: #fd744f;
+  background-color: #fd744f;
+  border-radius: 48px;
+  color: #fff;
+  font-family: Open Sans;
+  font-weight: 700;
+  padding: 8px 24px;
+  /* padding: 5px 5px; */
+  transition: 0.3s;
+  border: 0.1px;
+}
+
+.back-image {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url("https://wowslider.com/sliders/demo-93/data1/images/lake.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }

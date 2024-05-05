@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import "@fontsource/roboto";
 import './App.css';
 import './header.css';
 import Header from './Header';
@@ -8,8 +8,10 @@ import Body from './Body';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Body />
+      <div className="back-image">
+        <Header />
+        <Body />
+      </div>
     </div>
   );
 }

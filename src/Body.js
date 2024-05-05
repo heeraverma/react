@@ -5,9 +5,15 @@ import Carousel from './Carousel';
 const Body = () => {
     return (
         <div>
-            <h2 className="brand-name">Welcome to Momoriyan</h2>
-            <h4 className="sub-brand">Feeding your Foodie Soul</h4>
-            <Carousel />
+            <div className="brand-header">
+                <h2 className="brand-name">Welcome to Momoriyan</h2>
+                <h4 className="sub-brand">Feeding your Foodie Soul</h4>
+                <div className="btn-group">
+                    <button className="buttonFilled">Explore Our Menu</button>
+                    {/* <button>Learn More</button> */}
+                </div>
+            </div>
+            {/* <Carousel /> */}
         </div>
     )
 }
